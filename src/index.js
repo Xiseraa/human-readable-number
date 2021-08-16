@@ -51,7 +51,7 @@ module.exports = function toReadable (number) {
       }
     
       if(number > 99 && number < 1000) {
-          if (number.toString()[1] == "0" && num.toString()[2] == "0")
+          if (number.toString()[1] == "0" && number.toString()[2] == "0")
                 return first[number.toString()[0]] + " hundred";
             if (number.toString()[1] == "0")
               return first[number.toString()[0]] + " hundred " + first[number.toString()[2]];
