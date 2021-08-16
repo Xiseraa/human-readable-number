@@ -8,7 +8,7 @@ module.exports = function toReadable (number) {
         5: 'five',
         6: 'six',
         7: 'seven',
-        8: 'eigth',
+        8: 'eight',
         9: 'nine',
         10: 'ten'
       }
@@ -63,5 +63,5 @@ module.exports = function toReadable (number) {
                   return first[number.toString()[0]] + " hundred " + third[number.toString()[1]];
             else 
                 return first[number.toString()[0]] + " hundred " + third[number.toString()[1]] + " " + first[number.toString()[2]];
-    }
+    } 
 }
